@@ -1,0 +1,19 @@
+<package>
+  <name>roomba_robin_simulator</name>
+  <version>1.0.0</version>
+  <description>Catkin metapackage for the roomba_robin_simulator stack</description>
+  <maintainer email="stephan.hofstaetter@gmail.com">Stephan Hofstaetter</maintainer>
+  <license>BSD</license>
+  <url type="website">http://ros.org/wiki/turtlebot_simulator</url>
+  <url type="repository">https://github.com/robinJKU/roomba_robin_simulator</url>
+  <url type="bugtracker">https://github.com/robinJKU/roomba_robin_simulator/issues</url>
+  <author email="stephan.hofstaetter@gmail.com">Stephan Hofstaetter</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>turtlebot_gazebo</run_depend>
+  <run_depend>roomba_robin_gazebo</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
